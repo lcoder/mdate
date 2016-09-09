@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>mdate测试用例</title>
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="../index.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/ui-default.css"/>
+</head>
+<body>
+<input type="text" name="mdate" id="mdate" />
+<script type="text/javascript">
+$( function(){
+    $("#mdate").mdate( {
+        max: new Date() ,
+        onPick: function( value ){
+            console.log( value );
+        }
+    } ) ;
+} );
+</script>
+</body>
+</html>

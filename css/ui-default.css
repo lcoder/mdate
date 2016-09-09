@@ -1,7 +1,7 @@
 /* mdate日期插件 */
 .mdate_ui { position: absolute; top: 529px; left: 232px; z-index: 9; width: 200px; border: 1px solid #e6e6e6; background-color: #fff; }
 .mdate_ui .date_area { width: 100%; }
-.mdate_ui .bg_mdate { display: inline-block; background: url("/images/mdate.png") no-repeat 100px 100px; }
+.mdate_ui .bg_mdate { display: inline-block; background: url("../images/mdate.png") no-repeat 100px 100px; }
 .mdate_ui .date_title { padding: 14px 15px; }
 .mdate_ui .date_title_inner { position: relative; }
 .mdate_ui .date_title_inner p { font-size: 16px; color: #333; font-weight: bold; text-align: center; }
